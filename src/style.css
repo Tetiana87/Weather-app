@@ -1,0 +1,116 @@
+.block {
+  margin: 20px auto;
+  border: 1px solid #83beda;
+  border-radius: 30px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(91, 173, 254, 0.46) 0%,
+    rgba(91, 224, 254, 0.46) 47.2%,
+    rgba(170, 254, 235, 0.43) 90%
+  );
+  padding: 15px;
+  max-width: 600px;
+}
+
+.city {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.weather-data {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.type-weather {
+  font-size: 15px;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  padding-left: 15px;
+}
+
+.weather-icon {
+  height: 100px;
+  width: 80px;
+  padding: 0 0 35px 15px;
+}
+
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+  padding-left: 15px;
+}
+
+.units {
+  position: relative;
+  top: -34px;
+}
+
+.form {
+  display: block;
+  margin: 20px auto;
+  padding: 5px 45px;
+  border: 1px solid #45bfe4;
+  border-radius: 30px;
+  background-color: #5ad9f3;
+  text-align: center;
+  outline: none;
+}
+
+.button {
+  display: block;
+  margin: 20px 0px 20px 20px;
+  padding: 5px 20px;
+  background-color: #45bfe4;
+  border: 1px solid #45bfe4;
+  color: #6c40db;
+  border-radius: 25px;
+  font-size: 16px;
+  line-height: 22px;
+  box-shadow: 17px 19px 20px rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease;
+}
+
+.button:hover {
+  color: #6273d2;
+  background: rgb(144, 217, 228);
+}
+
+.degrees {
+  color: rgb(66, 58, 232);
+  font-family: "Space Mono", monospace;
+}
+
+.emoji {
+  font-size: 20px;
+}
+
+.hours {
+  padding: 15px 0;
+}
+
+.days {
+  padding-left: 20px;
+  margin-left: -30px;
+}
+
+.day {
+  font-family: "Space Mono", monospace;
+  text-align: center;
+  font-size: 16px;
+  color: rgb(239, 42, 226);
+}
+
+.day-degrees {
+  font-size: 20px;
+  color: rgb(66, 58, 232);
+}
