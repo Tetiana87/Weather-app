@@ -124,3 +124,13 @@ li:first-letter {
   text-align: center;
   font-size: 12px;
 }
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+  text-decoration: none;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
