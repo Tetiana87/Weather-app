@@ -90,11 +90,6 @@ li:first-letter {
   background: rgb(144, 217, 228);
 }
 
-.degrees {
-  color: rgb(66, 58, 232);
-  font-family: "Space Mono", monospace;
-}
-
 .emoji {
   font-size: 20px;
 }
@@ -116,7 +111,7 @@ li:first-letter {
 }
 
 .day-degrees {
-  font-size: 20px;
+  font-size: 15px;
   color: rgb(66, 58, 232);
 }
 
@@ -133,4 +128,14 @@ li:first-letter {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: rgb(66, 58, 232);
+  font-family: "Space Mono", monospace;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
 }
