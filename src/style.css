@@ -139,3 +139,11 @@ li:first-letter {
 .weather-forecast-temperature-min {
   opacity: 0.5;
 }
+
+@media (max-width: 770px) {
+  .media {
+    width: 60%;
+    display: block;
+    margin: 10px auto;
+  }
+}
